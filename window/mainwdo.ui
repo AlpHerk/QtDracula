@@ -1435,8 +1435,8 @@ p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ff79c6;&quot;&gt;QtDeacula&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;n interface using Qt C++, Based on the PyDracula , modified by AlpHerk&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ff79c6;&quot;&gt;QtDracula&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;n interface using Qt C++, Based on the PyDracula , recreated by AlpHerk&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ff79c6;&quot;&gt;Thanks&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;PyDeacula, &lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;an interface created using Python and PySide (support for PyQt), and with colors based on the Dracula theme created by Zeno Rocha, created by: Wanderson M. Pimenta&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -1586,7 +1586,7 @@ p, li { white-space: pre-wrap; }
                    </font>
                   </property>
                   <property name="text">
-                   <string>QtDracula APP - based on PyDracula for Qt C++.</string>
+                   <string>QtDracula APP -  for Qt C++.</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1869,6 +1869,44 @@ p, li { white-space: pre-wrap; }
 background-position: center;
 background-repeat: no-repeat;</string>
                       </property>
+                      <widget class="QTextEdit" name="textEdit_2">
+                       <property name="geometry">
+                        <rect>
+                         <x>390</x>
+                         <y>500</y>
+                         <width>171</width>
+                         <height>50</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>300</width>
+                         <height>50</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background: transparent;</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::NoFrame</enum>
+                       </property>
+                       <property name="readOnly">
+                        <bool>true</bool>
+                       </property>
+                       <property name="html">
+                        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ff79c6;&quot;&gt;For Qt C++&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                       </property>
+                      </widget>
                      </widget>
                      <widget class="QWidget" name="widgets">
                       <property name="styleSheet">
@@ -2163,7 +2201,7 @@ background-repeat: no-repeat;</string>
                                 <rect>
                                  <x>0</x>
                                  <y>0</y>
-                                 <width>355</width>
+                                 <width>218</width>
                                  <height>218</height>
                                 </rect>
                                </property>
@@ -2993,7 +3031,7 @@ background-repeat: no-repeat;</string>
                    </font>
                   </property>
                   <property name="text">
-                   <string>Based on Wanderson M. Pimenta'PyDracula, modified by AlpHerk</string>
+                   <string>Based on Wanderson M. Pimenta'PyDracula, recreated by AlpHerk</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
